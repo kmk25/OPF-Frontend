@@ -1,13 +1,43 @@
-html, body {
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200&family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "JetBrains Mono", monospace;
+  font-family: "Open Sans", sans-serif;
+  color: white;
 }
 
-body {
-    background:  url("/images/backgroung.png");
-
+.container {
+  position: relative;
+  z-index: 1;
+  padding-top: 40px;
 }
 
+.content {
+  width: 75%;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url("/images/background.jpg");
+  background-position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
 .page-title {
-    text-align: center;
+  text-align: center;
+  font-size: 40px;
 }
