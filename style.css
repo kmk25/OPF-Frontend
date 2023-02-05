@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200&family=Open+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
   font-family: "JetBrains Mono", monospace;
   font-family: "Open Sans", sans-serif;
   color: white;
@@ -13,11 +12,11 @@
 .container {
   position: relative;
   z-index: 1;
-  padding-top: 40px;
+  padding: 40px 0;
 }
 
 .content {
-  width: 75%;
+  width: 90%;
   margin: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.2);
